@@ -1,0 +1,41 @@
+#! ../bin/raytracer
+
+epsilon: 0.1
+
+camera: default
+
+light:
+ position: 0 0 0
+
+light:
+ position: 3 3 0
+ color: 50 0 255
+ power: 0.5
+
+light:
+ position: -3 3 0
+ color: 255 50 0
+ power: 0.5
+
+sphere:
+ position: 3 0 -5
+ color: 242 242 242
+ param: 1
+ texture: marble
+
+sphere:
+ position: 0 0 -5
+ color: 242 242 242
+ param: 1
+ bump: 1
+ bumpScale: 10
+
+sphere:
+ position: -3 0 -5
+ color: 242 242 242
+ param: 1
+ texture: wood
+
+plane:
+ position: 0 -2 0
+ color: 242 242 242
